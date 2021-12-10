@@ -1,9 +1,7 @@
 language: csharp
-
-solution: DyeAndDurhamAssessment.sln
-
-dotnet: 2.1.502
+solution: "./DyeAndDurhamAssessment.sln"
+install:
+- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./DyeAndDurhamAssessment.sln
 script:
-- dotnet restore
-- dotnet test ./AssessmentUnitTests/UnitTest1.cs
-- dotnet publish -r win-x64 -c Release --self-contained
+- xbuild ./DyeAndDurhamAssessment.sln
+# - mono ./Fibonacci/packages/xunit.runner.console*/tools/xunit.console.exe ./Fibonacci/Fibonacci.Tests/bin/Debug/Fibonacci.Tests.dll

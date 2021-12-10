@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj": {}
+    "/home/justice/Development/Dye-and-Durham-Coding-Assessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj": {}
   },
   "projects": {
-    "/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj": {
+    "/home/justice/Development/Dye-and-Durham-Coding-Assessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj",
+        "projectUniqueName": "/home/justice/Development/Dye-and-Durham-Coding-Assessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj",
         "projectName": "DyeAndDurhamAssessment",
-        "projectPath": "/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj",
+        "projectPath": "/home/justice/Development/Dye-and-Durham-Coding-Assessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment.csproj",
         "packagesPath": "/home/justice/.nuget/packages/",
-        "outputPath": "/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/",
+        "outputPath": "/home/justice/Development/Dye-and-Durham-Coding-Assessment/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/justice/.nuget/NuGet/NuGet.Config"

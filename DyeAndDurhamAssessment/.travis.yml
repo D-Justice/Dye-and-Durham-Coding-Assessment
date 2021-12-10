@@ -5,4 +5,4 @@ solution: DyeAndDurhamAssessment.sln
 dotnet: 2.1.502
 script:
 -dotnet restore
--dotnet test
+-dotnet test ./AssessmentUnitTests/UnitTest1.cs

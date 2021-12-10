@@ -4,5 +4,6 @@ solution: DyeAndDurhamAssessment.sln
 
 dotnet: 2.1.502
 script:
--dotnet restore
--dotnet test ./AssessmentUnitTests/UnitTest1.cs
+- dotnet restore
+- dotnet test ./AssessmentUnitTests/UnitTest1.cs
+- dotnet publish -r win-x64 -c Release --self-contained

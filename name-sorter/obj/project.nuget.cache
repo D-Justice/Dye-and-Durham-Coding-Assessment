@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DiVtGRSu5uXvN6bXDLGdlnNMw1Q2xxeVrvSh2ueichZ116GMU+XI/S/sDepfdVHJq6fD924KnxPDu7y1NADKZA==",
+  "dgSpecHash": "0UR3dKLyhFLSfyfUMilxyOP0vNmNnG9gEBScj7fiB6MMsg8yWD9iLYAoAWhqzr4AUJZLYhqSLkDiu5+c/KLyMw==",
   "success": true,
-  "projectFilePath": "/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter.csproj",
-  "expectedPackageFiles": [
-    "/home/justice/.nuget/packages/microsoft.netcore.app.runtime.win-x64/6.0.0/microsoft.netcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
-    "/home/justice/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/6.0.0/microsoft.aspnetcore.app.runtime.win-x64.6.0.0.nupkg.sha512",
-    "/home/justice/.nuget/packages/microsoft.netcore.app.host.win-x64/6.0.0/microsoft.netcore.app.host.win-x64.6.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "/home/robert/src/dyedurham/coding_assessments/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

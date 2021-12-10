@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "DyeAndDurhamAssessment": {
-      "commandName": "Project",
-      "commandLineArgs": "./unsorted-names-list.txt"
-    }
-  }
-}

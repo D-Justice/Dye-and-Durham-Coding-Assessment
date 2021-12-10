@@ -1,7 +1,0 @@
-language: csharp
-solution: "./DyeAndDurhamAssessment.sln"
-install:
-- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./DyeAndDurhamAssessment.sln
-script:
-- xbuild ./DyeAndDurhamAssessment.sln
-# - mono ./Fibonacci/packages/xunit.runner.console*/tools/xunit.console.exe ./Fibonacci/Fibonacci.Tests/bin/Debug/Fibonacci.Tests.dll

@@ -1,0 +1,16 @@
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/DyeAndDurhamAssessment
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/unsorted-names-list.txt
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/DyeAndDurhamAssessment.deps.json
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/DyeAndDurhamAssessment.runtimeconfig.json
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/DyeAndDurhamAssessment.dll
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/ref/DyeAndDurhamAssessment.dll
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/bin/Debug/net6.0/DyeAndDurhamAssessment.pdb
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.csproj.AssemblyReference.cache
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.AssemblyInfoInputs.cache
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.AssemblyInfo.cs
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.csproj.CoreCompileInputs.cache
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.dll
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/ref/DyeAndDurhamAssessment.dll
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.pdb
+/mnt/c/Users/Damian/source/repos/DyeAndDurhamAssessment/DyeAndDurhamAssessment/obj/Debug/net6.0/DyeAndDurhamAssessment.genruntimeconfig.cache

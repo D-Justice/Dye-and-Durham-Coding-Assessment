@@ -66,8 +66,9 @@ namespace AssessmentUnitTests
         [Fact]
         public void Test3()
         {
+            var fileReader = new ReadFile();
             const string FileName = "./unsorted-names-list.txt";
-            string[] result = ReadFile.PullText(fileName: FileName);
+            string[] result = fileReader.PullText(fileName: FileName);
 
             Assert.True(result.Length >= 0);
 

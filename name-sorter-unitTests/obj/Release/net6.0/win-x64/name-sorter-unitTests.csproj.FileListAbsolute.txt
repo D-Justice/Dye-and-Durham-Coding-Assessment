@@ -1,5 +1,0 @@
-/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter-unitTests/obj/Release/net6.0/win-x64/name-sorter-unitTests.csproj.AssemblyReference.cache
-/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter-unitTests/obj/Release/net6.0/win-x64/name-sorter-unitTests.GeneratedMSBuildEditorConfig.editorconfig
-/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter-unitTests/obj/Release/net6.0/win-x64/name-sorter-unitTests.AssemblyInfoInputs.cache
-/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter-unitTests/obj/Release/net6.0/win-x64/name-sorter-unitTests.AssemblyInfo.cs
-/home/justice/Development/Dye-and-Durham-Coding-Assessment/name-sorter/name-sorter-unitTests/obj/Release/net6.0/win-x64/name-sorter-unitTests.csproj.CoreCompileInputs.cache

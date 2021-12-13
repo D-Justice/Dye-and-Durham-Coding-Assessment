@@ -1,8 +1,5 @@
-using System;
-using System.IO;
-using System.Linq;
-using MyApp;
-//Reads .txt file and converts to array
+namespace MyApp 
+{
 public class ReadFile
     {
         public string[] PullText(string fileName)
@@ -11,3 +8,4 @@ public class ReadFile
             return fullNames;
         }
     }
+}

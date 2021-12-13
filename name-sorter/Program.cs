@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Linq;
-namespace MyApp
+﻿namespace MyApp
 {
     class Program
     {
@@ -10,6 +7,7 @@ namespace MyApp
             ReadFile readFile = new ReadFile();
             NameParser listOfNames = new NameParser();
             SortArray sortArray = new SortArray();
+            WriteToFile writeFile = new WriteToFile();
 
             if (!File.Exists(args[0]))
             {
@@ -20,8 +18,9 @@ namespace MyApp
             string[] FileData = readFile.PullText(args[0]);
             List<Name> list = listOfNames.ParseList(FileData);
             List<Name> SortedData = sortArray.SortAscending(list);
+            string[] nameArray = WriteToFile.ConvertListToArray(SortedData);
             
-            WriteToFile.CreateAndWrite(SortedData);
+            writeFile.CreateAndWrite(nameArray);
         }
     }
 }

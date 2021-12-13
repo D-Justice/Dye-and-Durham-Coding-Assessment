@@ -1,7 +1,7 @@
-using System;
-using System.IO;
-using System.Linq;
 using MyApp;
+
+namespace MyApp
+{
 public class SortArray
     {
         public List<Name> SortAscending(List<Name> fullNames)
@@ -12,3 +12,4 @@ public class SortArray
             return orderedList;
         }
     }
+}

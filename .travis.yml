@@ -3,5 +3,5 @@ sudo: required
 dotnet: 6.0.100
 
 script:
-- dotnet build ./name-sorter/name-sorter.csproj
 - dotnet test ./name-sorter-unitTests/name-sorter-unitTests.csproj
+- dotnet build ./name-sorter/name-sorter.csproj

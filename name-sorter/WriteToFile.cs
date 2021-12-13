@@ -3,9 +3,10 @@ namespace MyApp
 {
 public class WriteToFile
     {
-        public static void CreateAndWrite(string[] dataToWrite)
+        public static void CreateAndWrite(List<Name> dataToWrite)
         {
-            File.WriteAllLines("sorted-names-list.txt", dataToWrite);
+            string[] test = dataToWrite.Select(o => o.First + " " + (o.Middle != ""? $"{o.Middle} " : "") + o.Last).ToArray();
+            File.WriteAllLines("sorted-names-list.txt", test);
             Console.Write("File Written Successfully");
         }
     }

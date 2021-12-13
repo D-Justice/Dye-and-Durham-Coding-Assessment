@@ -7,22 +7,23 @@ namespace MyApp
     {
         static void Main(string[] args)
         {
-            var fileReader = new ReadFile();
+            ReadFile readFile = new ReadFile();
+            NameParser listOfNames = new NameParser();
+            SortArray sortArray = new SortArray();
+
             if (!File.Exists(args[0]))
             {
                 Console.WriteLine($"{args[0]} does not exist.");
                 return;
             }
+            
 
-            string[] FileData = fileReader.PullText(args[0]);
-            string[] ReverseData = SortArray.SplitAndReverse(FileData);
-            string[] SortedData = SortArray.SortAscending(ReverseData);
-            string[] NormalizedData = SortArray.Normalize(SortedData);
-            foreach (var i in NormalizedData)
-            {
-                Console.WriteLine(i);
-            }
-            WriteToFile.CreateAndWrite(NormalizedData);
+            string[] FileData = readFile.PullText(args[0]);
+            List<Name> list = listOfNames.ParseList(FileData);
+
+            List<Name> SortedData = sortArray.SortAscending(list);
+            
+            WriteToFile.CreateAndWrite(SortedData);
         }
     }
 }

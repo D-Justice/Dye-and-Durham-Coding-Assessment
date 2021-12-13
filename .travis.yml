@@ -13,7 +13,7 @@ before_install:
 install:
   - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
 script:
-- dotnet test
-- dotnet build
+- dotnet test ./name-sorter-unitTests/name-sorter-unitTests.csproj
+- dotnet build ./name-sorter/name-sorter.csproj
 
 

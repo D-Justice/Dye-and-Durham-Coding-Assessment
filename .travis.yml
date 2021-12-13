@@ -4,7 +4,7 @@
 # install:
 # - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./name-sorter.sln
 # script:
-# - xbuild ./name-sorter.sln
+
 # # - mono ./Fibonacci/packages/xunit.runner.console*/tools/xunit.console.exe ./Fibonacci/Fibonacci.Tests/bin/Debug/Fibonacci.Tests.dll
 language: csharp
 sudo: required
@@ -12,6 +12,8 @@ before_install:
   - wget --no-check-certificate https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 install:
   - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
-# script:
-#   - make compile test
+script:
+- dotnet test
+- xbuild ./name-sorter.sln
+
 

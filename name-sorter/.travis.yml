@@ -1,7 +1,9 @@
 language: csharp
-solution: "./name-sorter.sln"
-install:
-- travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./name-sorter.sln
+sudo: required
+dotnet: 6.0.100
+
+before_script:
+- export PATH=$PATH:/home/travis/.dotnet/tools
 script:
-- xbuild ./name-sorter.sln
-# - mono ./Fibonacci/packages/xunit.runner.console*/tools/xunit.console.exe ./Fibonacci/Fibonacci.Tests/bin/Debug/Fibonacci.Tests.dll
+- dotnet build ./name-sorter/name-sorter.csproj
+- dotnet test ./name-sorter-unitTests/name-sorter-unitTests.csproj

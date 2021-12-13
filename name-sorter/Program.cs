@@ -16,11 +16,9 @@ namespace MyApp
                 Console.WriteLine($"{args[0]} does not exist.");
                 return;
             }
-            
 
             string[] FileData = readFile.PullText(args[0]);
             List<Name> list = listOfNames.ParseList(FileData);
-
             List<Name> SortedData = sortArray.SortAscending(list);
             
             WriteToFile.CreateAndWrite(SortedData);

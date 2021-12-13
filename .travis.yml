@@ -11,7 +11,7 @@ sudo: required
 dotnet: 6.0.100
 
 before_install:
-  - dotnet restore ".\name-sorter\name-sorter.sln"
+  - dotnet restore "./name-sorter/name-sorter.sln"
 
 before_script:
 - export PATH=$PATH:/home/travis/.dotnet/tools

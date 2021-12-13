@@ -14,6 +14,6 @@ install:
   - mono ./nuget.exe install NUnit.Runners -Version 3.0.1 -OutputDirectory testrunner
 script:
 - dotnet test
-- xbuild ./name-sorter.sln
+- dotnet build
 
 

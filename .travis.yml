@@ -2,8 +2,6 @@ language: csharp
 sudo: required
 dotnet: 6.0.100
 
-before_script:
-- export PATH=$PATH:/home/travis/.dotnet/tools
 script:
 - dotnet build ./name-sorter/name-sorter.csproj
 - dotnet test ./name-sorter-unitTests/name-sorter-unitTests.csproj

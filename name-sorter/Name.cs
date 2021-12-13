@@ -1,18 +1,18 @@
-using System;
-class Name
-{   
-    public string First
-    {get; set;}
-    public string Middle
-    {get; set;}
-    public string Last
-    {get; set;}
-    public Name(string firstName, string middleName, string lastName)
-    {
-        First = firstName;
-        Middle = middleName;
-        Last = lastName;
-    }
 
-    
+using System;
+namespace MyApp
+{
+    public class Name {
+
+        public Name(string first, string middle, string last)
+        {
+            First = first;
+            Middle = middle;
+            Last = last;
+        }
+        public string First { get; set; }
+        public string Last { get; set; }
+        public string Middle { get; set; }
+    }
 }
+

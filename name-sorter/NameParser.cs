@@ -1,22 +1,25 @@
-class NameParser
+namespace MyApp
 {
-    public List<Name> Parse(string[] fullName)
+    public class NameParser
     {
-        
-        List<Name> names = fullName.Select(x => {
-            return ParseItem(x);
-        }).ToList();
+        public List<Name> ParseList(string[] lines)
+        {
+            return lines
+            .ToList()
+                .Select(x =>
+                {
+                    return ParseListItem(x);
+                }).ToList(); ;
+        }
 
-        return names;
-    }
+        public Name ParseListItem(string line)
+        {
+            var fullName = line.Split(" ").ToList();
+            var firstName = fullName.First();
+            var lastName = fullName.Last();
+            var middleNames = string.Join(" ", fullName.Skip(1).Take(fullName.Count - 2));
 
-    public Name ParseItem(string item)
-    {
-        string[] fullName = item.Split(" ");
-        string first = fullName.First();
-        string last = fullName.Last();
-        string middle = string.Join(" ", fullName, 2, fullName[-2]);
-        Console.WriteLine(first, middle, last);
-        return new Name(first, middle, last);
+            return new Name(firstName, middleNames, lastName);
+        }
     }
 }

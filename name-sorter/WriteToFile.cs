@@ -10,7 +10,10 @@ public class WriteToFile
         }
         public void CreateAndWrite(string[] dataToWrite)
         {
-            
+            foreach (var i in dataToWrite)
+            {
+                Console.WriteLine(i);
+            }
             File.WriteAllLines("sorted-names-list.txt", dataToWrite);
             Console.Write("File Written Successfully");
         }
